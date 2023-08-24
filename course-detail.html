@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/course.css">
+    <link rel="stylesheet" href="css/home.css">
+    <title>Learn Javascript, Become an Expert - Programming Course</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.css"  rel="stylesheet" />
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        poppins: ['Poppins']
+                    },
+
+                    colors: {
+                        'main': '#82204A',
+                        'second': '#E8DB7D',
+                        'second-darker': '#D9C326',
+                        'tersier': '#558C8C',
+                        'random': '#383838',
+                    },
+
+                    animation: {
+                        'spin-slow': 'spin 2s linear infinite',
+                        'fadeIn': 'fadeIn 1s ease-in forwards'
+                    },
+
+                    keyframes: {
+                        fadeIn: {
+                            "0%": {opacity: 0},
+                            "100%": {opacity: 1}
+                        }
+                    },
+                }
+            },
+
+            variants: {
+                animation: ['motion-safe']
+            }
+        }
+    </script>
+</head>
+<body class="font-poppins">
+
+    <!-- Navbar -->
+    <header class="w-full text-random relative animate-entrance">
+
+            <div class="max-w-fit mt-8 ml-20 hover:scale-110 transition-all duration-300">
+                <h1 class="text-2xl text-main font-bold"><a href="home.html">Autumn <span class="text-second">Project</span></a></h1>
+                <hr class="h-1 bg-main w-[102px] -mt-1 -ml-0" />
+            </div>
+    
+            <nav class="max-w-fit absolute left-[41%] bottom-0">
+                <ul class="flex flex-row gap-x-8">
+                    <li class="hover:scale-110 hover:text-second transition-all duration-300"><a href="home.html">Home</a></li>
+                    <li class="text-second underline underline-offset-4"><a href="#">Courses</a></li>
+                    <li class="hover:scale-110 hover:text-second transition-all duration-300"><a href="#">About Us</a></li>
+                </ul>
+            </nav>
+    
+            <div class="max-w-fit absolute right-20 bottom-0 flex flex-row gap-x-4 items-center">
+                <button class="hover:scale-110 hover:text-second transition-all duration-300">Sign In</button>
+                <button class="w-28 py-1 flex flex-row justify-evenly items-center bg-second rounded-lg hover:bg-second-darker hover:scale-110 transition-all duration-300">
+                    Get Started
+                </button>
+            </div>
+
+    </header>
+    <!-- akhir navbar -->
+
+    <!-- hero section -->
+    <section class="w-full max-h-fit mt-10 bg-second border border-transparent relative">
+        <div class="my-14 animate-entrance-hero">
+            <p class="max-w-fit text-random text-xl font-semibold ml-20 inline-block ">Programming</p>
+            <h1 class="w-1/2 text-random text-4xl font-bold ml-20 mt-5">Learn Javascript, Become an Expert</h1>
+            <p class="w-1/2 text-random mt-4 ml-20">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos fugit in molestiae enim dignissimos nihil culpa ex impedit quasi dicta!</p>
+            <div class="max-w-fit flex flex-row gap-x-0 ml-[100px] mt-4 scale-125 hover:opacity-80 cursor-pointer">
+                <p class="text-sm text-random font-bold">4.0</p>
+                <div class="max-w-fit -ml-2 flex flex-row gap-x-1 scale-75">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.33458 14.4902L5.20101 16.9803C5.01841 17.0966 4.8275 17.1464 4.62829 17.1298C4.42908 17.1132 4.25477 17.0468 4.10537 16.9305C3.95596 16.8143 3.83976 16.6693 3.75675 16.4953C3.67375 16.3206 3.65715 16.1254 3.70695 15.9096L4.8026 11.2033L1.14215 8.04088C0.97614 7.89147 0.872552 7.72115 0.831382 7.52991C0.789549 7.33933 0.801833 7.15274 0.868236 6.97014C0.934638 6.78753 1.03424 6.63812 1.16705 6.52192C1.29985 6.40571 1.48246 6.33101 1.71487 6.29781L6.54567 5.87449L8.41324 1.44211C8.49625 1.2429 8.62507 1.09349 8.79971 0.993889C8.97368 0.894285 9.15197 0.844482 9.33458 0.844482C9.51719 0.844482 9.69581 0.894285 9.87045 0.993889C10.0444 1.09349 10.1729 1.2429 10.2559 1.44211L12.1235 5.87449L16.9543 6.29781C17.1867 6.33101 17.3693 6.40571 17.5021 6.52192C17.6349 6.63812 17.7345 6.78753 17.8009 6.97014C17.8673 7.15274 17.8799 7.33933 17.8388 7.52991C17.7969 7.72115 17.693 7.89147 17.527 8.04088L13.8666 11.2033L14.9622 15.9096C15.012 16.1254 14.9954 16.3206 14.9124 16.4953C14.8294 16.6693 14.7132 16.8143 14.5638 16.9305C14.4144 17.0468 14.2401 17.1132 14.0409 17.1298C13.8417 17.1464 13.6508 17.0966 13.4682 16.9803L9.33458 14.4902Z" fill="#FFB33E"/>
+                    </svg>
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.33458 14.4902L5.20101 16.9803C5.01841 17.0966 4.8275 17.1464 4.62829 17.1298C4.42908 17.1132 4.25477 17.0468 4.10537 16.9305C3.95596 16.8143 3.83976 16.6693 3.75675 16.4953C3.67375 16.3206 3.65715 16.1254 3.70695 15.9096L4.8026 11.2033L1.14215 8.04088C0.97614 7.89147 0.872552 7.72115 0.831382 7.52991C0.789549 7.33933 0.801833 7.15274 0.868236 6.97014C0.934638 6.78753 1.03424 6.63812 1.16705 6.52192C1.29985 6.40571 1.48246 6.33101 1.71487 6.29781L6.54567 5.87449L8.41324 1.44211C8.49625 1.2429 8.62507 1.09349 8.79971 0.993889C8.97368 0.894285 9.15197 0.844482 9.33458 0.844482C9.51719 0.844482 9.69581 0.894285 9.87045 0.993889C10.0444 1.09349 10.1729 1.2429 10.2559 1.44211L12.1235 5.87449L16.9543 6.29781C17.1867 6.33101 17.3693 6.40571 17.5021 6.52192C17.6349 6.63812 17.7345 6.78753 17.8009 6.97014C17.8673 7.15274 17.8799 7.33933 17.8388 7.52991C17.7969 7.72115 17.693 7.89147 17.527 8.04088L13.8666 11.2033L14.9622 15.9096C15.012 16.1254 14.9954 16.3206 14.9124 16.4953C14.8294 16.6693 14.7132 16.8143 14.5638 16.9305C14.4144 17.0468 14.2401 17.1132 14.0409 17.1298C13.8417 17.1464 13.6508 17.0966 13.4682 16.9803L9.33458 14.4902Z" fill="#FFB33E"/>
+                    </svg>
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.33458 14.4902L5.20101 16.9803C5.01841 17.0966 4.8275 17.1464 4.62829 17.1298C4.42908 17.1132 4.25477 17.0468 4.10537 16.9305C3.95596 16.8143 3.83976 16.6693 3.75675 16.4953C3.67375 16.3206 3.65715 16.1254 3.70695 15.9096L4.8026 11.2033L1.14215 8.04088C0.97614 7.89147 0.872552 7.72115 0.831382 7.52991C0.789549 7.33933 0.801833 7.15274 0.868236 6.97014C0.934638 6.78753 1.03424 6.63812 1.16705 6.52192C1.29985 6.40571 1.48246 6.33101 1.71487 6.29781L6.54567 5.87449L8.41324 1.44211C8.49625 1.2429 8.62507 1.09349 8.79971 0.993889C8.97368 0.894285 9.15197 0.844482 9.33458 0.844482C9.51719 0.844482 9.69581 0.894285 9.87045 0.993889C10.0444 1.09349 10.1729 1.2429 10.2559 1.44211L12.1235 5.87449L16.9543 6.29781C17.1867 6.33101 17.3693 6.40571 17.5021 6.52192C17.6349 6.63812 17.7345 6.78753 17.8009 6.97014C17.8673 7.15274 17.8799 7.33933 17.8388 7.52991C17.7969 7.72115 17.693 7.89147 17.527 8.04088L13.8666 11.2033L14.9622 15.9096C15.012 16.1254 14.9954 16.3206 14.9124 16.4953C14.8294 16.6693 14.7132 16.8143 14.5638 16.9305C14.4144 17.0468 14.2401 17.1132 14.0409 17.1298C13.8417 17.1464 13.6508 17.0966 13.4682 16.9803L9.33458 14.4902Z" fill="#FFB33E"/>
+                    </svg>
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.33458 14.4902L5.20101 16.9803C5.01841 17.0966 4.8275 17.1464 4.62829 17.1298C4.42908 17.1132 4.25477 17.0468 4.10537 16.9305C3.95596 16.8143 3.83976 16.6693 3.75675 16.4953C3.67375 16.3206 3.65715 16.1254 3.70695 15.9096L4.8026 11.2033L1.14215 8.04088C0.97614 7.89147 0.872552 7.72115 0.831382 7.52991C0.789549 7.33933 0.801833 7.15274 0.868236 6.97014C0.934638 6.78753 1.03424 6.63812 1.16705 6.52192C1.29985 6.40571 1.48246 6.33101 1.71487 6.29781L6.54567 5.87449L8.41324 1.44211C8.49625 1.2429 8.62507 1.09349 8.79971 0.993889C8.97368 0.894285 9.15197 0.844482 9.33458 0.844482C9.51719 0.844482 9.69581 0.894285 9.87045 0.993889C10.0444 1.09349 10.1729 1.2429 10.2559 1.44211L12.1235 5.87449L16.9543 6.29781C17.1867 6.33101 17.3693 6.40571 17.5021 6.52192C17.6349 6.63812 17.7345 6.78753 17.8009 6.97014C17.8673 7.15274 17.8799 7.33933 17.8388 7.52991C17.7969 7.72115 17.693 7.89147 17.527 8.04088L13.8666 11.2033L14.9622 15.9096C15.012 16.1254 14.9954 16.3206 14.9124 16.4953C14.8294 16.6693 14.7132 16.8143 14.5638 16.9305C14.4144 17.0468 14.2401 17.1132 14.0409 17.1298C13.8417 17.1464 13.6508 17.0966 13.4682 16.9803L9.33458 14.4902Z" fill="#FFB33E"/>
+                    </svg>
+                    <svg width="18" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.98107 14.4902L5.8475 16.9803C5.66489 17.0966 5.47398 17.1464 5.27477 17.1298C5.07557 17.1132 4.90126 17.0468 4.75185 16.9305C4.60245 16.8143 4.48624 16.6693 4.40324 16.4953C4.32023 16.3206 4.30363 16.1254 4.35344 15.9096L5.44908 11.2033L1.78863 8.04088C1.62262 7.89147 1.51904 7.72115 1.47787 7.52991C1.43603 7.33933 1.44832 7.15274 1.51472 6.97014C1.58112 6.78753 1.68073 6.63812 1.81353 6.52192C1.94634 6.40571 2.12895 6.33101 2.36135 6.29781L7.19215 5.87449L9.05973 1.44211C9.14273 1.2429 9.27155 1.09349 9.44619 0.993889C9.62017 0.894285 9.79846 0.844482 9.98107 0.844482C10.1637 0.844482 10.3423 0.894285 10.5169 0.993889C10.6909 1.09349 10.8194 1.2429 10.9024 1.44211L12.77 5.87449L17.6008 6.29781C17.8332 6.33101 18.0158 6.40571 18.1486 6.52192C18.2814 6.63812 18.381 6.78753 18.4474 6.97014C18.5138 7.15274 18.5264 7.33933 18.4853 7.52991C18.4434 7.72115 18.3395 7.89147 18.1735 8.04088L14.5131 11.2033L15.6087 15.9096C15.6585 16.1254 15.6419 16.3206 15.5589 16.4953C15.4759 16.6693 15.3597 16.8143 15.2103 16.9305C15.0609 17.0468 14.8866 17.1132 14.6874 17.1298C14.4882 17.1464 14.2972 17.0966 14.1146 16.9803L9.98107 14.4902Z" stroke="#383838" stroke-width="0.995983"/>
+                    </svg>                            
+                </div>
+                <p class="text-sm text-random">(256)</p>
+            </div>
+            <div class="flex flex-row gap-x-4 ml-20 mt-4 max-w-fit">
+                <p class="text-random">Created by <a class="font-bold hover:opacity-80" href="#">Anna Guilero</a></p>
+                <p class="text-random">Last update, 11 August 2023</p>
+            </div>
+        </div>
+    </section>
+    <!-- akhir hero section -->
+
+    <!-- course button card -->
+    <div class="w-[400px] max-h-fit rounded-lg text-center bg-white drop-shadow-lg absolute top-40 right-20 animate-entrance-hero-img">
+        <img class="w-[370px] mx-auto mt-4 rounded-lg drop-shadow-lg" src="img/5.jpg" alt="">
+        <div class="flex flex-row w-[340px] mx-auto mt-4">
+            <p class="text-random text-3xl font-bold last-of-type:mr-auto">$100.00</p>
+            <div class="max-w-fit py-0.5 px-2 rounded-md flex flex-row justify-evenly items-center gap-x-2 bg-second scale-90 drop-shadow-md">
+                <svg width="16" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.96831 1.93823C5.38652 1.93823 1.67627 5.65679 1.67627 10.2386C1.67627 14.8204 5.38652 18.5389 9.96831 18.5389C14.5584 18.5389 18.2769 14.8204 18.2769 10.2386C18.2769 5.65679 14.5584 1.93823 9.96831 1.93823ZM9.97661 16.8788C6.30786 16.8788 3.33634 13.9073 3.33634 10.2386C3.33634 6.56982 6.30786 3.5983 9.97661 3.5983C13.6454 3.5983 16.6169 6.56982 16.6169 10.2386C16.6169 13.9073 13.6454 16.8788 9.97661 16.8788Z" fill="#383838"/>
+                    <path d="M10.3908 6.08813H9.14575V11.0683L13.5034 13.6829L14.126 12.662L10.3908 10.4458V6.08813Z" fill="#383838"/>
+                </svg>
+                <p class="text-sm">04 hr 10 mins</p>
+            </div>
+        </div>
+        <button class="w-[340px] py-2 mt-4 bg-second rounded-lg text-2xl text-random font-semibold drop-shadow-lg hover:opacity-80">
+            Join Now
+        </button>
+        <button class="w-[340px] py-2 mt-3 bg-main rounded-lg text-2xl text-white font-semibold drop-shadow-lg hover:opacity-80">
+            Add to Cart
+        </button>
+        <button class="w-[340px] py-2 mt-3 bg-tersier rounded-lg text-2xl text-white font-semibold drop-shadow-lg hover:opacity-80">
+            Input Promo Code
+        </button>
+        <p class="mt-4 w-fit text-random text-sm ml-8">This course are included:</p>
+        <div class="flex flex-row gap-x-2 mt-2 text-random text-sm ml-8">
+            <svg width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M23.7487 4.00861C23.6236 3.50858 23.3687 3.05043 23.0098 2.68043C22.6509 2.31044 22.2007 2.04171 21.7047 1.90138C19.8925 1.45886 12.6436 1.45886 12.6436 1.45886C12.6436 1.45886 5.39472 1.45886 3.5825 1.94353C3.08651 2.08385 2.63633 2.35258 2.27744 2.72258C1.91854 3.09257 1.66365 3.55072 1.53849 4.05076C1.20683 5.8899 1.04459 7.7556 1.05382 9.62439C1.042 11.5072 1.20425 13.3872 1.53849 15.2402C1.67647 15.7247 1.93708 16.1654 2.29514 16.5198C2.65319 16.8741 3.0966 17.1302 3.5825 17.2631C5.39472 17.7478 12.6436 17.7478 12.6436 17.7478C12.6436 17.7478 19.8925 17.7478 21.7047 17.2631C22.2007 17.1228 22.6509 16.854 23.0098 16.4841C23.3687 16.1141 23.6236 15.6559 23.7487 15.1559C24.0778 13.3306 24.24 11.4791 24.2334 9.62439C24.2452 7.74153 24.083 5.86161 23.7487 4.00861Z" stroke="#383838" stroke-width="1.68579" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M10.2728 13.0697L16.3311 9.62434L10.2728 6.17902V13.0697Z" stroke="#383838" stroke-width="1.68579" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <p>3 hours 10 minutes learning video</p>
+        </div>
+        <div class="flex flex-row gap-x-2 mt-3 text-random text-sm ml-8 mb-4">
+            <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.37509 20.086V11.6571H15.9113V20.086M15.9113 1.12097V6.38905H7.48233M3.26788 20.0861H18.0185C18.5774 20.0861 19.1134 19.864 19.5085 19.4689C19.9037 19.0737 20.1257 18.5377 20.1257 17.9788V3.2282C20.1257 2.66933 19.9037 2.13335 19.5085 1.73817C19.1134 1.34298 18.5774 1.12097 18.0185 1.12097H6.42872L1.16064 6.38905V17.9788C1.16064 18.5377 1.38266 19.0737 1.77784 19.4689C2.17302 19.864 2.709 20.0861 3.26788 20.0861Z" stroke="#383838" stroke-width="1.68579" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>                
+            <p>Lifetime Access</p>
+        </div>
+    </div>
+    <!-- akhir course button card -->
+
+    <!-- description section -->
+    <section class="w-1/2 ml-20 mt-6 bg-white rounded-lg drop-shadow-lg animate-entrance-hero">
+        <h1 class="text-tersier text-4xl font-bold inline-block mt-4 ml-12">Description</h1>
+        <p class="text-random px-12 text-sm mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi suscipit quis omnis eaque error expedita?</p>
+        <p class="text-random px-12 text-sm mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ipsam similique explicabo vel, pariatur alias delectus voluptates atque magnam</p>
+        <p class="inline-block text-random px-12 text-sm mt-4 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ea pariatur deleniti animi harum accusantium dignissimos necessitatibus veniam molestias corrupti?</p>
+    </section>
+    <!-- akhir description section -->
+
+    <!-- skill section -->
+    <section class="w-[1100px] ml-20 mt-10 bg-white rounded-lg drop-shadow-lg js-show-on-scroll">
+        <h1 class="text-tersier text-4xl font-bold inline-block mt-4 ml-12">Skills You Will Get</h1>
+        <div class="w-[800px] mx-auto mt-4 inline-block mb-4">
+            <div class="w-[800px] ml-32 grid grid-cols-2 grid-rows-5 gap-y-4">
+                <!-- skill 1 -->
+                <div class="flex flex-row items-center gap-x-2 w-fit mx-auto scale-110">
+                    <svg width="20" height="28" viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M36.6668 2.5L13.7502 25.4167L3.3335 15" stroke="#558C8C" stroke-width="4.91667" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p class="text-random text-sm w-fit">Lorem ipsum dolor sit amet</p>
+                </div>
+                <!-- akhir skill 1 -->
+                <!-- skill 2 -->
+                <div class="flex flex-row items-center gap-x-2 w-fit mx-auto scale-110">
+                    <svg width="20" height="28" viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M36.6668 2.5L13.7502 25.4167L3.3335 15" stroke="#558C8C" stroke-width="4.91667" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p class="text-random text-sm w-fit">Lorem ipsum dolor sit amet</p>
+                </div>
+                <!-- akhir skill 2 -->
+                <!-- skill 3 -->
+                <div class="flex flex-row items-center gap-x-2 w-fit mx-auto scale-110">
+                    <svg width="20" height="28" viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M36.6668 2.5L13.7502 25.4167L3.3335 15" stroke="#558C8C" stroke-width="4.91667" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p class="text-random text-sm w-fit">Lorem ipsum dolor sit amet</p>
+                </div>
+                <!-- akhir skill 3 -->
+                <!-- skill 4 -->
+                <div class="flex flex-row items-center gap-x-2 w-fit mx-auto scale-110">
+                    <svg width="20" height="28" viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M36.6668 2.5L13.7502 25.4167L3.3335 15" stroke="#558C8C" stroke-width="4.91667" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p class="text-random text-sm w-fit">Lorem ipsum dolor sit amet</p>
+                </div>
+                <!-- akhir skill 4 -->
+                <!-- skill 5 -->
+                <div class="flex flex-row items-center gap-x-2 w-fit mx-auto scale-110">
+                    <svg width="20" height="28" viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M36.6668 2.5L13.7502 25.4167L3.3335 15" stroke="#558C8C" stroke-width="4.91667" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p class="text-random text-sm w-fit">Lorem ipsum dolor sit amet</p>
+                </div>
+                <!-- akhir skill 5 -->
+                <!-- skill 6 -->
+                <div class="flex flex-row items-center gap-x-2 w-fit mx-auto scale-110">
+                    <svg width="20" height="28" viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M36.6668 2.5L13.7502 25.4167L3.3335 15" stroke="#558C8C" stroke-width="4.91667" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p class="text-random text-sm w-fit">Lorem ipsum dolor sit amet</p>
+                </div>
+                <!-- akhir skill 6 -->
+                <!-- skill 7 -->
+                <div class="flex flex-row items-center gap-x-2 w-fit mx-auto scale-110">
+                    <svg width="20" height="28" viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M36.6668 2.5L13.7502 25.4167L3.3335 15" stroke="#558C8C" stroke-width="4.91667" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p class="text-random text-sm w-fit">Lorem ipsum dolor sit amet</p>
+                </div>
+                <!-- akhir skill 7 -->
+                <!-- skill 8 -->
+                <div class="flex flex-row items-center gap-x-2 w-fit mx-auto scale-110">
+                    <svg width="20" height="28" viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M36.6668 2.5L13.7502 25.4167L3.3335 15" stroke="#558C8C" stroke-width="4.91667" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p class="text-random text-sm w-fit">Lorem ipsum dolor sit amet</p>
+                </div>
+                <!-- akhir skill 8 -->
+                <!-- skill 9 -->
+                <div class="flex flex-row items-center gap-x-2 w-fit mx-auto scale-110">
+                    <svg width="20" height="28" viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M36.6668 2.5L13.7502 25.4167L3.3335 15" stroke="#558C8C" stroke-width="4.91667" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p class="text-random text-sm w-fit">Lorem ipsum dolor sit amet</p>
+                </div>
+                <!-- akhir skill 9 -->
+                <!-- skill 10 -->
+                <div class="flex flex-row items-center gap-x-2 w-fit mx-auto scale-110">
+                    <svg width="20" height="28" viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M36.6668 2.5L13.7502 25.4167L3.3335 15" stroke="#558C8C" stroke-width="4.91667" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p class="text-random text-sm w-fit">Lorem ipsum dolor sit amet</p>
+                </div>
+                <!-- akhir skill 10 -->
+            </div>
+        </div>
+    </section>
+    <!-- akhir skill section -->
+
+    <!-- course silabus section -->
+    <section class="w-[1100px] h-fit ml-20 mt-10 bg-white rounded-lg drop-shadow-lg js-show-on-scroll">
+        <h1 class="text-tersier text-4xl font-bold inline-block mt-4 ml-12">Course Syllabus</h1>
+
+        <!-- silabus 1 -->
+        <div id="accordion-collapse-1" data-accordion="collapse" class="w-[1000px] mx-auto mt-4 border border-random border-opacity-80 rounded-lg overflow-hidden transition-all">
+            <h2 id="accordion-collapse-heading-1">    
+                <button type="button" class="flex items-center justify-between w-full p-4 font-medium text-left text-random hover:opacity-80" data-accordion-target="#accordion-collapse-body-1" aria-controls="accordion-collapse-body-1">
+                    <span>Lorem ipsum dolor sit</span>
+                    <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                    </svg>
+                </button>
+            </h2>
+            <div id="accordion-collapse-body-1" class="hidden transition-all duration-300">
+                <div class="p-4">
+                    <!-- Nested accordion -->
+                    <div>
+                        <h2>
+                            <hr class="w-[900px] mx-auto h-0.5 bg-random opacity-90" />
+                            <button type="button" class="flex items-center gap-x-4 w-full p-4 text-random hover:opacity-80">
+                                <div class="ml-20">
+                                    <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L15 10L1 19V1Z" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                    
+                                </div>
+                                <span class="">Lorem ipsum dolor sit</span>
+                            </button>
+                            <hr class="w-[900px] mx-auto h-0.5 bg-random opacity-90" />
+                        </h2>
+                        <h2>
+                            <button type="button" class="flex items-center gap-x-4 w-full p-4 text-random hover:opacity-80">
+                                <div class="ml-20">
+                                    <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L15 10L1 19V1Z" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                    
+                                </div>
+                                <span class="">Lorem ipsum dolor sit</span>
+                            </button>
+                            <hr class="w-[900px] mx-auto h-0.5 bg-random opacity-90" />
+                        </h2>
+                        <h2>
+                            <button type="button" class="flex items-center gap-x-4 w-full p-4 text-random hover:opacity-80">
+                                <div class="ml-20">
+                                    <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L15 10L1 19V1Z" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                    
+                                </div>
+                                <span class="">Lorem ipsum dolor sit</span>
+                            </button>
+                            <hr class="w-[900px] mx-auto h-0.5 bg-random opacity-90" />
+                        </h2>
+                    </div>
+                    <!-- End: Nested accordion -->
+                </div>
+            </div>
+        </div> 
+        <!-- akhir silabus 1 -->
+
+        <!-- silabus 2 -->
+        <div id="accordion-collapse-2" data-accordion="collapse" class="w-[1000px] mx-auto mt-4 border border-random border-opacity-80 rounded-lg overflow-hidden">
+            <h2 id="accordion-collapse-heading-2">    
+                <button type="button" class="flex items-center justify-between w-full p-4 font-medium text-left text-random hover:opacity-80" data-accordion-target="#accordion-collapse-body-2" aria-controls="accordion-collapse-body-2">
+                    <span>Lorem ipsum dolor sit</span>
+                    <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                    </svg>
+                </button>
+            </h2>
+            <div id="accordion-collapse-body-2" class="hidden">
+                <div class="p-4">
+                    <!-- Nested accordion -->
+                    <div>
+                        <h2>
+                            <hr class="w-[900px] mx-auto h-0.5 bg-random opacity-90" />
+                            <button type="button" class="flex items-center gap-x-4 w-full p-4 text-random hover:opacity-80">
+                                <div class="ml-20">
+                                    <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L15 10L1 19V1Z" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                    
+                                </div>
+                                <span class="">Lorem ipsum dolor sit</span>
+                            </button>
+                            <hr class="w-[900px] mx-auto h-0.5 bg-random opacity-90" />
+                        </h2>
+                        <h2>
+                            <button type="button" class="flex items-center gap-x-4 w-full p-4 text-random hover:opacity-80">
+                                <div class="ml-20">
+                                    <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L15 10L1 19V1Z" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                    
+                                </div>
+                                <span class="">Lorem ipsum dolor sit</span>
+                            </button>
+                            <hr class="w-[900px] mx-auto h-0.5 bg-random opacity-90" />
+                        </h2>
+                        <h2>
+                            <button type="button" class="flex items-center gap-x-4 w-full p-4 text-random hover:opacity-80">
+                                <div class="ml-20">
+                                    <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L15 10L1 19V1Z" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                    
+                                </div>
+                                <span class="">Lorem ipsum dolor sit</span>
+                            </button>
+                            <hr class="w-[900px] mx-auto h-0.5 bg-random opacity-90" />
+                        </h2>
+                    </div>
+                    <!-- End: Nested accordion -->
+                </div>
+            </div>
+        </div> 
+        <!-- akhir silabus 2 -->
+
+        <!-- silabus 3 -->
+        <div id="accordion-collapse-3" data-accordion="collapse" class="w-[1000px] mx-auto mt-4 border border-random border-opacity-80 rounded-lg overflow-hidden">
+            <h2 id="accordion-collapse-heading-3">
+                <button type="button" class="flex items-center justify-between w-full p-4 font-medium text-left text-random hover:opacity-80" data-accordion-target="#accordion-collapse-body-3" aria-controls="accordion-collapse-body-3">
+                    <span>Lorem ipsum dolor sit</span>
+                    <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                    </svg>
+                </button>
+            </h2>
+            <div id="accordion-collapse-body-3" class="hidden">
+                <div class="p-4">
+                    <!-- Nested accordion -->
+                    <div>
+                        <h2>
+                            <hr class="w-[900px] mx-auto h-0.5 bg-random opacity-90" />
+                            <button type="button" class="flex items-center gap-x-4 w-full p-4 text-random hover:opacity-80">
+                                <div class="ml-20">
+                                    <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L15 10L1 19V1Z" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                    
+                                </div>
+                                <span class="">Lorem ipsum dolor sit</span>
+                            </button>
+                            <hr class="w-[900px] mx-auto h-0.5 bg-random opacity-90" />
+                        </h2>
+                        <h2>
+                            <button type="button" class="flex items-center gap-x-4 w-full p-4 text-random hover:opacity-80">
+                                <div class="ml-20">
+                                    <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L15 10L1 19V1Z" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                    
+                                </div>
+                                <span class="">Lorem ipsum dolor sit</span>
+                            </button>
+                            <hr class="w-[900px] mx-auto h-0.5 bg-random opacity-90" />
+                        </h2>
+                        <h2>
+                            <button type="button" class="flex items-center gap-x-4 w-full p-4 text-random hover:opacity-80">
+                                <div class="ml-20">
+                                    <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L15 10L1 19V1Z" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                    
+                                </div>
+                                <span class="">Lorem ipsum dolor sit</span>
+                            </button>
+                            <hr class="w-[900px] mx-auto h-0.5 bg-random opacity-90" />
+                        </h2>
+                    </div>
+                    <!-- End: Nested accordion -->
+                </div>
+            </div>
+        </div> 
+        <!-- akhir silabus 3 -->
+
+        <!-- silabus 4 -->
+        <div id="accordion-collapse-4" data-accordion="collapse" class="w-[1000px] ml-[50px] mt-4 mb-4 inline-block border border-random border-opacity-80 rounded-lg overflow-hidden">
+            <h2 id="accordion-collapse-heading-4">
+                <button type="button" class="flex items-center justify-between w-full p-4 font-medium text-left text-random hover:opacity-80" data-accordion-target="#accordion-collapse-body-4" aria-controls="accordion-collapse-body-4">
+                    <span>Lorem ipsum dolor sit</span>
+                    <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                    </svg>
+                </button>
+            </h2>
+            <div id="accordion-collapse-body-4" class="hidden">
+                <div class="p-4">
+                    <!-- Nested accordion -->
+                    <div>
+                        <h2>
+                            <hr class="w-[900px] mx-auto h-0.5 bg-random opacity-90" />
+                            <button type="button" class="flex items-center gap-x-4 w-full p-4 text-random hover:opacity-80">
+                                <div class="ml-20">
+                                    <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L15 10L1 19V1Z" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                    
+                                </div>
+                                <span class="">Lorem ipsum dolor sit</span>
+                            </button>
+                            <hr class="w-[900px] mx-auto h-0.5 bg-random opacity-90" />
+                        </h2>
+                        <h2>
+                            <button type="button" class="flex items-center gap-x-4 w-full p-4 text-random hover:opacity-80">
+                                <div class="ml-20">
+                                    <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L15 10L1 19V1Z" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                    
+                                </div>
+                                <span class="">Lorem ipsum dolor sit</span>
+                            </button>
+                            <hr class="w-[900px] mx-auto h-0.5 bg-random opacity-90" />
+                        </h2>
+                        <h2>
+                            <button type="button" class="flex items-center gap-x-4 w-full p-4 text-random hover:opacity-80">
+                                <div class="ml-20">
+                                    <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L15 10L1 19V1Z" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                    
+                                </div>
+                                <span class="">Lorem ipsum dolor sit</span>
+                            </button>
+                            <hr class="w-[900px] mx-auto h-0.5 bg-random opacity-90" />
+                        </h2>
+                    </div>
+                    <!-- End: Nested accordion -->
+                </div>
+            </div>
+        </div> 
+        <!-- akhir silabus 4 -->
+
+    </section>
+    <!-- akhir course silabus section -->
+
+    <!-- tutor section -->
+    <section class="w-[1100px] ml-20 mt-10 bg-white rounded-lg drop-shadow-lg">
+        <h1 class="text-tersier text-4xl font-bold inline-block mt-4 ml-12">About the Tutor</h1>
+        <div class="w-80 h-32 mt-4 ml-20 grid grid-cols-5">
+            <div class="w-full h-full col-span-2">
+                <img class="rounded-full w-28 mx-auto mt-2" src="img/8.jpg" alt="">
+            </div>
+            <div class="w-full h-full col-span-3">
+                <p class="text-random font-bold text-2xl ml-6 mt-4">Jesselyn Lori</p>
+                <div class="max-w-fit flex flex-row gap-x-0 mt-0.5 ml-4 scale-90 hover:opacity-80 cursor-pointer">
+                    <p class="text-sm text-random font-bold">5.0</p>
+                    <div class="max-w-fit -ml-2 flex flex-row gap-x-1 scale-75">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.33458 14.4902L5.20101 16.9803C5.01841 17.0966 4.8275 17.1464 4.62829 17.1298C4.42908 17.1132 4.25477 17.0468 4.10537 16.9305C3.95596 16.8143 3.83976 16.6693 3.75675 16.4953C3.67375 16.3206 3.65715 16.1254 3.70695 15.9096L4.8026 11.2033L1.14215 8.04088C0.97614 7.89147 0.872552 7.72115 0.831382 7.52991C0.789549 7.33933 0.801833 7.15274 0.868236 6.97014C0.934638 6.78753 1.03424 6.63812 1.16705 6.52192C1.29985 6.40571 1.48246 6.33101 1.71487 6.29781L6.54567 5.87449L8.41324 1.44211C8.49625 1.2429 8.62507 1.09349 8.79971 0.993889C8.97368 0.894285 9.15197 0.844482 9.33458 0.844482C9.51719 0.844482 9.69581 0.894285 9.87045 0.993889C10.0444 1.09349 10.1729 1.2429 10.2559 1.44211L12.1235 5.87449L16.9543 6.29781C17.1867 6.33101 17.3693 6.40571 17.5021 6.52192C17.6349 6.63812 17.7345 6.78753 17.8009 6.97014C17.8673 7.15274 17.8799 7.33933 17.8388 7.52991C17.7969 7.72115 17.693 7.89147 17.527 8.04088L13.8666 11.2033L14.9622 15.9096C15.012 16.1254 14.9954 16.3206 14.9124 16.4953C14.8294 16.6693 14.7132 16.8143 14.5638 16.9305C14.4144 17.0468 14.2401 17.1132 14.0409 17.1298C13.8417 17.1464 13.6508 17.0966 13.4682 16.9803L9.33458 14.4902Z" fill="#FFB33E"/>
+                        </svg>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.33458 14.4902L5.20101 16.9803C5.01841 17.0966 4.8275 17.1464 4.62829 17.1298C4.42908 17.1132 4.25477 17.0468 4.10537 16.9305C3.95596 16.8143 3.83976 16.6693 3.75675 16.4953C3.67375 16.3206 3.65715 16.1254 3.70695 15.9096L4.8026 11.2033L1.14215 8.04088C0.97614 7.89147 0.872552 7.72115 0.831382 7.52991C0.789549 7.33933 0.801833 7.15274 0.868236 6.97014C0.934638 6.78753 1.03424 6.63812 1.16705 6.52192C1.29985 6.40571 1.48246 6.33101 1.71487 6.29781L6.54567 5.87449L8.41324 1.44211C8.49625 1.2429 8.62507 1.09349 8.79971 0.993889C8.97368 0.894285 9.15197 0.844482 9.33458 0.844482C9.51719 0.844482 9.69581 0.894285 9.87045 0.993889C10.0444 1.09349 10.1729 1.2429 10.2559 1.44211L12.1235 5.87449L16.9543 6.29781C17.1867 6.33101 17.3693 6.40571 17.5021 6.52192C17.6349 6.63812 17.7345 6.78753 17.8009 6.97014C17.8673 7.15274 17.8799 7.33933 17.8388 7.52991C17.7969 7.72115 17.693 7.89147 17.527 8.04088L13.8666 11.2033L14.9622 15.9096C15.012 16.1254 14.9954 16.3206 14.9124 16.4953C14.8294 16.6693 14.7132 16.8143 14.5638 16.9305C14.4144 17.0468 14.2401 17.1132 14.0409 17.1298C13.8417 17.1464 13.6508 17.0966 13.4682 16.9803L9.33458 14.4902Z" fill="#FFB33E"/>
+                        </svg>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.33458 14.4902L5.20101 16.9803C5.01841 17.0966 4.8275 17.1464 4.62829 17.1298C4.42908 17.1132 4.25477 17.0468 4.10537 16.9305C3.95596 16.8143 3.83976 16.6693 3.75675 16.4953C3.67375 16.3206 3.65715 16.1254 3.70695 15.9096L4.8026 11.2033L1.14215 8.04088C0.97614 7.89147 0.872552 7.72115 0.831382 7.52991C0.789549 7.33933 0.801833 7.15274 0.868236 6.97014C0.934638 6.78753 1.03424 6.63812 1.16705 6.52192C1.29985 6.40571 1.48246 6.33101 1.71487 6.29781L6.54567 5.87449L8.41324 1.44211C8.49625 1.2429 8.62507 1.09349 8.79971 0.993889C8.97368 0.894285 9.15197 0.844482 9.33458 0.844482C9.51719 0.844482 9.69581 0.894285 9.87045 0.993889C10.0444 1.09349 10.1729 1.2429 10.2559 1.44211L12.1235 5.87449L16.9543 6.29781C17.1867 6.33101 17.3693 6.40571 17.5021 6.52192C17.6349 6.63812 17.7345 6.78753 17.8009 6.97014C17.8673 7.15274 17.8799 7.33933 17.8388 7.52991C17.7969 7.72115 17.693 7.89147 17.527 8.04088L13.8666 11.2033L14.9622 15.9096C15.012 16.1254 14.9954 16.3206 14.9124 16.4953C14.8294 16.6693 14.7132 16.8143 14.5638 16.9305C14.4144 17.0468 14.2401 17.1132 14.0409 17.1298C13.8417 17.1464 13.6508 17.0966 13.4682 16.9803L9.33458 14.4902Z" fill="#FFB33E"/>
+                        </svg>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.33458 14.4902L5.20101 16.9803C5.01841 17.0966 4.8275 17.1464 4.62829 17.1298C4.42908 17.1132 4.25477 17.0468 4.10537 16.9305C3.95596 16.8143 3.83976 16.6693 3.75675 16.4953C3.67375 16.3206 3.65715 16.1254 3.70695 15.9096L4.8026 11.2033L1.14215 8.04088C0.97614 7.89147 0.872552 7.72115 0.831382 7.52991C0.789549 7.33933 0.801833 7.15274 0.868236 6.97014C0.934638 6.78753 1.03424 6.63812 1.16705 6.52192C1.29985 6.40571 1.48246 6.33101 1.71487 6.29781L6.54567 5.87449L8.41324 1.44211C8.49625 1.2429 8.62507 1.09349 8.79971 0.993889C8.97368 0.894285 9.15197 0.844482 9.33458 0.844482C9.51719 0.844482 9.69581 0.894285 9.87045 0.993889C10.0444 1.09349 10.1729 1.2429 10.2559 1.44211L12.1235 5.87449L16.9543 6.29781C17.1867 6.33101 17.3693 6.40571 17.5021 6.52192C17.6349 6.63812 17.7345 6.78753 17.8009 6.97014C17.8673 7.15274 17.8799 7.33933 17.8388 7.52991C17.7969 7.72115 17.693 7.89147 17.527 8.04088L13.8666 11.2033L14.9622 15.9096C15.012 16.1254 14.9954 16.3206 14.9124 16.4953C14.8294 16.6693 14.7132 16.8143 14.5638 16.9305C14.4144 17.0468 14.2401 17.1132 14.0409 17.1298C13.8417 17.1464 13.6508 17.0966 13.4682 16.9803L9.33458 14.4902Z" fill="#FFB33E"/>
+                        </svg>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.33458 14.4902L5.20101 16.9803C5.01841 17.0966 4.8275 17.1464 4.62829 17.1298C4.42908 17.1132 4.25477 17.0468 4.10537 16.9305C3.95596 16.8143 3.83976 16.6693 3.75675 16.4953C3.67375 16.3206 3.65715 16.1254 3.70695 15.9096L4.8026 11.2033L1.14215 8.04088C0.97614 7.89147 0.872552 7.72115 0.831382 7.52991C0.789549 7.33933 0.801833 7.15274 0.868236 6.97014C0.934638 6.78753 1.03424 6.63812 1.16705 6.52192C1.29985 6.40571 1.48246 6.33101 1.71487 6.29781L6.54567 5.87449L8.41324 1.44211C8.49625 1.2429 8.62507 1.09349 8.79971 0.993889C8.97368 0.894285 9.15197 0.844482 9.33458 0.844482C9.51719 0.844482 9.69581 0.894285 9.87045 0.993889C10.0444 1.09349 10.1729 1.2429 10.2559 1.44211L12.1235 5.87449L16.9543 6.29781C17.1867 6.33101 17.3693 6.40571 17.5021 6.52192C17.6349 6.63812 17.7345 6.78753 17.8009 6.97014C17.8673 7.15274 17.8799 7.33933 17.8388 7.52991C17.7969 7.72115 17.693 7.89147 17.527 8.04088L13.8666 11.2033L14.9622 15.9096C15.012 16.1254 14.9954 16.3206 14.9124 16.4953C14.8294 16.6693 14.7132 16.8143 14.5638 16.9305C14.4144 17.0468 14.2401 17.1132 14.0409 17.1298C13.8417 17.1464 13.6508 17.0966 13.4682 16.9803L9.33458 14.4902Z" fill="#FFB33E"/>
+                        </svg>
+                    </div>
+                    <p class="text-sm text-random">(103)</p>
+                </div>
+                <button class="w-28 py-1 ml-6 mt-2 flex flex-row justify-evenly items-center bg-main rounded-lg text-white hover:opacity-80 hover:scale-105 transition-all duration-300">
+                    Contact Me
+                </button>
+            </div>
+        </div>
+        <p class="text-random text-sm w-full h-fit px-20 mt-4 text-justify leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sapiente, culpa, accusantium ratione totam quaerat adipisci quod nemo dignissimos rerum voluptatem molestiae cumque error. Obcaecati exercitationem.</p>
+        <p class="text-random text-sm w-full h-fit px-20 mt-4 text-justify leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sapiente, culpa, accusantium ratione totam quaerat adipisci quod nemo dignissimos rerum voluptatem molestiae cumque error. Obcaecati exercitationem, incidunt assumenda animi, eius repellendus corporis modi, est dolorem explicabo laborum accusamus quo inventore.</p>
+        <div class="inline-block mt-4 mb-5">
+            <div class="w-auto h-fit ml-20 flex flex-row gap-x-16">
+                <div>
+                    <h2 class="text-random text-xl font-bold">Country</h2>
+                    <p class="text-random text-sm font-normal mt-1">Denmark</p>
+                </div>
+                <div>
+                    <h2 class="text-random text-xl font-bold">Member since</h2>
+                    <p class="text-random text-sm font-normal mt-1">2012</p>
+                </div>
+                <div>
+                    <h2 class="text-random text-xl font-bold">Language</h2>
+                    <p class="text-random text-sm font-normal mt-1">English</p>
+                </div>
+                <div>
+                    <h2 class="text-random text-xl font-bold">Total Course</h2>
+                    <p class="text-random text-sm font-normal mt-1">25 Course</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <!-- akhir tutor section -->
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<script src="script.js"></script>
+<script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+@keyframes slideInFromTop {
+  0% {
+      transform: translateY(-200%);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
+.animate-entrance {
+animation: slideInFromTop 1s ease-in-out;
+}
+
+@keyframes slideInFromTopHero {
+  0% {
+  transform: translateX(-200%);
+  }
+  100% {
+  transform: translateX(0);
+  }
+}
+
+.animate-entrance-hero {
+  animation: slideInFromTopHero 1s ease-in-out;
+}
+
+@keyframes slideInFromTopHeroImg {
+  0% {
+  transform: translateX(200%);
+  }
+  100% {
+  transform: translateX(0);
+  }
+}
+
+.animate-entrance-hero-img {
+  animation: slideInFromTopHeroImg 1s ease-in-out;
+}
+
+@keyframes terbang {
+  0% {
+      transform: translateY(5px);
+  }
+  50% {
+      transform: translateY(-10px);
+  }
+  100% {
+      transform: translateY(5px);
+  }
+}
+
+.terbang {
+  transform: translateX(0px);
+  animation: terbang 5s ease-out infinite;
+}
+
+.wave {
+  z-index: -1;
+  position: absolute;
+  top: 52px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: block;
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, #fff);
+}
+
+@keyframes naikatas {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+
+.animate-naik-atas {
+  transform: translateX(0px);
+  animation: naikatas 1s ease-out;
+}
